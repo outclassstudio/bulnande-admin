@@ -1,3 +1,3 @@
 export default function Main() {
-  return <div>main</div>;
+  return <div>Welcome to main page</div>;
 }

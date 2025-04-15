@@ -8,7 +8,7 @@ export default function ProductDetailLayout({
   return (
     <div>
       <SideBar />
-      <div className="ml-44">{children}</div>
+      <div className="ml-44 p-5">{children}</div>
     </div>
   );
 }

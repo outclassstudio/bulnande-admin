@@ -8,12 +8,18 @@ export default function SideBar() {
   };
 
   return (
-    <div className="fixed top-0 left-0 z-10 w-40 h-full shadow-md p-4">
+    <div className="fixed top-0 left-0 z-10 w-40 h-full shadow-md p-4 bg-neutral-50">
       <div className="flex flex-col gap-4">
-        <div className="cursor-pointer" onClick={() => onClick("/main")}>
+        <div
+          className="font-bold text-lg cursor-pointer"
+          onClick={() => onClick("/main")}
+        >
           홈
         </div>
-        <div className="cursor-pointer" onClick={() => onClick("/project")}>
+        <div
+          className="font-bold text-lg cursor-pointer"
+          onClick={() => onClick("/project")}
+        >
           프로젝트
         </div>
       </div>

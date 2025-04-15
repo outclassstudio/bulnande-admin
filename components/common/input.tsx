@@ -14,13 +14,13 @@ const _Input = (
   ref: ForwardedRef<HTMLInputElement>
 ) => {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 w-full">
       <input
         ref={ref}
         name={name}
         className="bg-transparent rounded-md w-full transition
         h-10 focus:outline-none ring-2 focus:ring-4 ring-neutral-200
-      focus:ring-orange-500 border-none placeholder:text-neutral-400"
+      focus:ring-orange-500 border-none placeholder:text-neutral-400 px-2 sm:px-4"
         {...rest}
       />
       {errors.map((error, index) => (

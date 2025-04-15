@@ -25,4 +25,9 @@ body {
     @apply w-full bg-orange-500 text-white text-lg font-medium
     rounded-md text-center hover:bg-orange-400 transition-colors;
   }
+  .primary-input {
+    @apply bg-transparent rounded-md w-full transition
+    h-10 focus:outline-none ring-2 focus:ring-4 ring-neutral-200
+  focus:ring-orange-500 border-none placeholder:text-neutral-400 px-4;
+  }
 }
